@@ -16,6 +16,28 @@ Alfa Charlie is based on Underscores https://underscores.me/, (C) 2012-2017 Auto
 Underscores is distributed under the terms of the GNU GPL v2 or later.
  */
 
+#ac-loader-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* Optional: customize background */
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 9999;
+}
+
+#ac-preloader-logo {
+  width: 120px;
+  height: auto;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
 
 .ac-list-item__link {
     color: #79726e;
