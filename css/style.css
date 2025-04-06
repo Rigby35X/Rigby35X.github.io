@@ -1,0 +1,177 @@
+/*!
+Theme Name: Alfa Charlie
+Theme URI: http://underscores.me/
+Author: Stefan Vitasovic
+Author URI: https://stefan.lynxdev.io
+Description: Custom WP  theme for Alfa Charlie Creative Agency
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: alfacharlie
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Alfa Charlie is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+ */
+
+
+.ac-list-item__link {
+    color: #79726e;
+}
+
+.ac-list-item__link:hover {
+    color: #d43246;
+}
+
+.ac-clients__logo {
+    max-width: 49%;
+    opacity: 100%;
+    transition: opacity 0.3s linear;
+}
+
+.ac-clients__logo:hover {
+    opacity: 60%;
+}
+
+.ac-mission-logo {
+    opacity: 100%;
+    transition: opacity 0.3s linear;
+}
+
+.ac-mission-logo:hover {max-width: 19%;
+    padding: 1rem;
+    opacity: 60%;
+}
+
+@media screen and (min-width: 425px ) {
+    .ac-clients__logo {
+        max-width: 49%;
+    }
+}
+
+@media screen and (min-width: 1024px ) {
+    .ac-mission-logo {
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px ) and (max-width: 1024px) {
+    .ac-clients__logo {
+        max-width: 32%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .ac-clients__logo {
+        max-width: 19%;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .ac-sep-mini {
+        padding: 0.1rem;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .ac-sep-mini {
+        padding: 3rem;
+    }
+}
+
+.ac-mission-logo {
+    /*margin: 15px 36px 10px 0;*/
+    max-width: 24% !important;
+}
+
+@media screen and (max-width: 768px) {
+    .ac-mission-logo {
+        margin: 5%;
+        max-width: 36% !important;
+    }
+}
+
+.ac-info-content strong {
+    font-weight: bold !important;
+    color: #3a3c49;
+}
+
+.ac-info .ac-info-title {
+    max-width: 79% !important;
+}
+
+.ac-align-left .ac-info {
+    max-width: 100% !important;
+}
+
+.ac-align-left .ac-info-text {
+    max-width: 100% !important;
+
+}
+
+.ac-align-left .ac-info-content {
+    margin-left: 4rem;
+}
+
+@media screen and (max-width: 1250px) {
+    .ac-align-left .ac-info-content {
+        margin-left: 1rem;
+    }
+}
+
+.ac-list-wrapper.ac-list-2 {
+    margin-top: 40px;
+}
+
+@media (min-width: 991px) {
+    .ac-align-left .ac-info-title.ac-section-title.services {
+        max-width: none !important;
+        width: 122%;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .ac-mobi-sep {
+        padding: 3rem 0;
+    }
+}
+
+.ac-mission .ac-mission-text {
+    max-width: 100% !important;
+}
+
+@media screen and (min-width: 1921px) {
+    .ac-sep.ac-big {
+        padding: 8% 0 !important;
+    }
+}
+
+.ac-mission-heading,
+.ac-section-heading-wrapper,
+.ac-team-heading-wrapper,
+.ac-info-heading,
+.ac-team-heading,
+.ac-section-heading {
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    z-index: 9999;
+
+}
+
+@media screen and (min-width: 770px) {
+    .ac-info-content p {
+        padding-right: 2rem;
+    }
+}
+
+
+.sendgrid-form .ac-row {
+	display:none;
+}
+
+
+.ac-blog-posts-list .ac-vertical-links {
+	display:none;
+}
